@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px) {
+    .client-individual__info img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .intro__logo {
+        padding: 40px 0 0 15px;
+        width: 200px;
+    }
+    .intro__info {
+        padding: 250px 0 0 15px;
+        max-width: 500px;
+    }
+    .dark__cards {
+        padding: 60px 15px 150px;
+    }
+    .client-individual__info {
+        padding: 60px 15px 150px;
+    }
+    .services__contact {
+        padding: 0 0 50px 15px;
+    }
+    .dark__cards__services {
+        padding: 60px 15px 50px;
+    }
+}

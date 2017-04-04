@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600');
+
+/*
+Set up font fmily:
+  font-family: 'Titillium Web', sans-serif;
+*/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #0f0f0f;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+img.desaturate {
+    filter: grayscale(100%);
+}
+
+img.shadow {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+/*--------
+
+Typography
+
+--------*/
+
+p {
+    font-weight: 300;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.text__muted {
+    font-size: .8em;
+    color: #BDBDBD;
+}
+
+a {
+    text-decoration: none;
+    color: #00ACC1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.white {
+    color: #fff;
+}
+
+
+/*---------
+
+Positioning
+
+---------*/
+
+
+/* Styling INTRO section */
+
+.row {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.intro {
+    height: 100%;
+}
+
+.intro__logo {
+    padding: 40px 0 0 40px;
+    width: 200px;
+}
+
+.intro__info {
+    padding: 250px 0 0 40px;
+    max-width: 500px;
+}
+
+
+/* Styling DARK section */
+
+.dark {
+    background: #0f0f0f;
+}
+
+.dark__cards {
+    padding: 60px 40px 150px;
+}
+
+.dark h2 {
+    /* Horizontal line */
+    padding-bottom: 60px;
+    border-bottom: 1px solid #1b1b1b;
+}
+
+.dark__card {
+    display: inline-block;
+    width: 26%;
+    min-width: 250px;
+    height: 160px;
+    padding: 20px 40px;
+    margin: 10px 10px 0 0;
+    color: #BDBDBD;
+    border: 1px solid #1b1b1b;
+}
+
+.dark__card:hover {
+    color: #fff;
+}
+
+
+/* Styling CLIENT-INDIVIDUAL section*/
+
+.client-individual {
+    border-top: 1px solid #EEEEEE;
+}
+
+.client-individual__info {
+    padding: 60px 40px 150px;
+}
+
+.client-individual__info img {
+    width: 400px;
+}
+
+.client-individual__info h3 {
+    margin-top: 130px;
+}
+
+.client-individual__info-p {
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+
+.client-individual__link {
+    margin: 40px 0 0 0;
+}
+
+.client-individual__link a {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .8em;
+}
+
+
+/* Styling SERVICES section */
+
+.services__contact {
+    padding: 0 0 50px 40px;
+}
+
+.services__contact h3 {
+    color: #fff;
+}
+
+.dark__cards__services {
+    padding: 60px 40px 50px;
+}
